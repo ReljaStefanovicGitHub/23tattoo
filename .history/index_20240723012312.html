@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>23 Tattoo Studio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<link href="https://fonts.cdnfonts.com/css/din-alternate" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript" src="email.js"></script>
+<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body class="w3-black" style="margin: 0; padding: 0;">
+<!-- Page Content -->
+<div id="main">
+  <header id="home">
+    <div class="w3-top w3-center" id="myNavbar" style="position: absolute; text-decoration: none; font-family: sans-serif; margin-right: 10px;">
+      <div class="w3-bar w3-center myNav" style="padding-top: 20px; font-family: 'din alternate';">
+        <a href="#main" class="w3-bar-item" style="width:20%; ">POČETNA</a>
+        <a href="#about" class="w3-bar-item" style="width:20%;">O MENI</a>
+        <a href="gallery.html" class="w3-bar-item" style="width:20%;">GALERIJA</a>
+        <a href="qa.html" class="w3-bar-item" style="width:20%;">Q&A</a>
+        <a href="#contact" class="w3-bar-item" style="width:20%;">KONTAKT</a>
+      </div>
+    </div>
+    <div class="foreground-image">
+      <img src="/icons/Untitled_Artwork.png">
+      <div class="paragraphs-container">
+        <p class="p1">SNAGA BROJA 23 JE UJEDNO <br>I SNAGA VAŠE LOJALNOSTI</p>
+        <div class="line"></div>
+        <p class="p2">POSTANI DEO 23 ZAJEDNICE</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <div class="about-page" id="about">
+    <div class="content-about">
+        <img src="/icons/Untitled_Artwork.png" alt="Tattoo Studio Logo">
+        <div class="text-content">
+            <h2>ABOUT</h2>
+            <hr>
+            <p>
+                23 Tattoo Studio počeo je sa radom
+                23.3.2021. godine u Novom Sadu.
+                Studio je osnovan sa verovanjem da će ga baš taj datum otvaranja probiti na tattoo nebo, a još kada je i naziv studija upravo taj broj, rekli bismo da je to dobitna kombinacija.
+                Stilovi kojim smo najviše posvećeni
+                jesu MICROREALISM i FINE-LINE.
+            </p>
+        </div>
+    </div>
+</div>
+    
+  <div class="contact" id="contact">
+    <h2 style="padding: 1px 20px; padding-top: 50px; margin-bottom: 30px ;">KONTAKTIRAJ ME</h2>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px;">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="mailto:rdmdtrasportdoo@gmail.com">23tattoostudio23@gmail.com</a></p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa-solid fa-location-dot w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Novi Sad, Srbija</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+381 60 447 46 95</p>
+      </div>
+    </div>
+    <div class="container">
+      <input type="email" id="email" placeholder="Vaš email" required>
+      <label for="text"></label>
+      <input type="text" placeholder="Napisi poruku" id="message" required>
+      <button id="sendEmailButton" onclick="sendEmail()" >Pošalji email</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
